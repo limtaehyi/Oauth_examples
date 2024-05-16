@@ -4,8 +4,8 @@ from flask_login import LoginManager, UserMixin, login_required, login_user, log
 import secrets
 
 app = Flask(__name__)
-app.config['GOOGLE_ID'] = "1071473845751-qiig4pverbkt9oks5lb0lib1ovpbdu26.apps.googleusercontent.com"
-app.config['GOOGLE_SECRET'] = "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"
+app.config['GOOGLE_ID'] = "<google_id>"
+app.config['GOOGLE_SECRET'] = "<google_secret>"
 app.config['SECRET_KEY'] = secrets.token_hex(24)
 app.debug = True
 
